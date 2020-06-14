@@ -1,0 +1,9 @@
+.topicCardMeta {
+    margin-bottom: 1em;
+}
+
+:global(.ui.label).topicCardChild {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}

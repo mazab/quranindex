@@ -1,0 +1,12 @@
+:global(.ui.label).documentCard {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+:global(.description).documentDescription {
+    margin-bottom: 0.5em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    line-height: 1.2em;
+}

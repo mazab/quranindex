@@ -1,0 +1,10 @@
+.container {
+    padding-top: 8em;
+    padding-bottom: 8em;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.container:global(.rtl) div {
+    direction: rtl;
+}

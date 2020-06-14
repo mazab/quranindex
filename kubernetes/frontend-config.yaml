@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  selector:
+    matchLabels:
+      app: quranindex-client
+      tier: frontend
+      track: stable
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: quranindex-client
+        tier: frontend
+        track: stable
+    spec:
+      containers:
+      - name: app
+        image: "gcr.io/quranindex/client:v2.0"
+
